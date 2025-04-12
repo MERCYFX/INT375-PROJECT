@@ -1,0 +1,44 @@
+1. Cleaning
+2. Analyze the Distribution of PM2.5 Levels Across India
+Objective: Understand the spread and frequency of PM2.5 concentrations.
+Visualization: Histogram with KDE for PM2.5 levels.
+
+3. Compare Average PM2.5 Levels by State
+Objective: Identify states with the highest PM2.5 pollution.
+Visualization: Bar plot of average PM2.5 levels by state.
+
+4. Examine Pollutant Correlations
+Objective: Investigate relationships between different pollutants (e.g., PM2.5, NO2, SO2).
+Visualization: Heatmap of pollutant correlations.
+
+5. Study Ozone Levels Across States
+Objective: Analyze variations in ozone (O3) concentrations by state.
+Visualization: Violin plot of ozone levels by state.
+
+6.Assess Pollutant Variability in Major Cities
+Objective: Compare pollutant levels in major cities for PM2.5 and NO2.
+Visualization: Pair plot of PM2.5 and NO2 for selected cities.
+
+7. Explore SO2 Levels by Region
+Objective: Understand SO2 distribution across different states.
+Visualization: Strip plot of SO2 levels by state.
+
+8. Investigate CO Levels in Urban vs. Rural Areas
+Objective: Compare CO concentrations in urban and rural stations.
+Visualization: Swarm plot of CO levels by station type.
+
+9. Analyze Pollutant Trends by Latitude
+Objective: Examine if pollutant levels correlate with geographical latitude.
+Visualization: Scatter plot of pollutant averages vs. latitude.
+
+10. Visualize Pollutant Composition by State
+Objective: Show the contribution of different pollutants in each state.
+Visualization: Stacked bar plot of average pollutant levels by state.
+
+11. Explore PM10 vs. PM2.5 Ratios Across States
+Objective: Calculate and compare the PM10-to-PM2.5 ratio across states to understand the contribution of coarse vs. fine particulate matter.
+Visualization: Bar plot using Seaborn’s barplot to show the average PM10/PM2.5 ratio by state, highlighting states with higher coarse particle dominance.
+
+12. Assess Pollutant Hotspots Using Geospatial Visualization
+Objective: Identify spatial clusters of high PM2.5 levels across India using latitude and longitude, with enhanced visual encoding for pollutant concentrations.
+Visualization: Scatter plot using Seaborn’s scatterplot, with cmap='nipy_spectral' for color mapping, point size proportional to PM2.5 concentration, and added features like a title, axis labels, and a colorbar for better interpretation.
